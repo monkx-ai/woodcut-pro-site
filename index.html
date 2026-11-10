@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>WoodCut Pro – Legal</title>
+<style>
+  :root {
+    --bg: #F6F4F1;
+    --surface: #FFFFFF;
+    --text: #1C2023;
+    --muted: #5A6066;
+    --accent: #B5713A;
+    --border: #E4E0D8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111315;
+      --surface: #1C2023;
+      --text: #EDEDEF;
+      --muted: #A6ACB3;
+      --accent: #D58A50;
+      --border: #2A2E32;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #111315;
+    --surface: #1C2023;
+    --text: #EDEDEF;
+    --muted: #A6ACB3;
+    --accent: #D58A50;
+    --border: #2A2E32;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 64px 20px;
+  }
+  h1 { font-size: 26px; margin: 0 0 8px; }
+  p.lede { color: var(--muted); margin: 0 0 32px; }
+  a.card {
+    display: block;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 600;
+  }
+  a.card:hover { border-color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>WoodCut Pro</h1>
+  <p class="lede">Legal and compliance pages for the WoodCut Pro Android app.</p>
+  <a class="card" href="./privacy-policy.html">Privacy Policy</a>
+  <a class="card" href="./terms-of-service.html">Terms of Service</a>
+  <a class="card" href="./data-deletion.html">Delete Your Data</a>
+</div>
+</body>
+</html>
